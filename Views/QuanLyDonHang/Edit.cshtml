@@ -1,0 +1,53 @@
+@model NHOM1.Models.QuanLyDonHang
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<p>
+    <a asp-action="Create" class="btn btn-success">QuanLyDonHang</a>
+</p>
+<table class="table table-bordered">
+    <thead class="table-dark">
+<h4>QuanLyDonHang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Madonhang" />
+            <div class="form-group">
+                <label asp-for="ngaydatdon" class="control-label"></label>
+                <input asp-for="ngaydatdon" class="form-control" />
+                <span asp-validation-for="ngaydatdon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Masanpham" class="control-label"></label>
+                <input asp-for="Masanpham" class="form-control" />
+                <span asp-validation-for="Masanpham" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThongTinSanPham" class="control-label"></label>
+                <input asp-for="ThongTinSanPham" class="form-control" />
+                <span asp-validation-for="ThongTinSanPham" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Makhachhang" class="control-label"></label>
+                <select asp-for="Makhachhang" class="form-control" asp-items="ViewBag.Makhachhang"></select>
+                <span asp-validation-for="Makhachhang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-danger" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,4 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using NHOM1.Data;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<MvcBigContext>(options =>
+
+
+    options.UseSqlite(builder.Configuration.GetConnectionString("MvcBigContext")));
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

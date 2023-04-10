@@ -1,0 +1,44 @@
+@model NHOM1.Models.ThongTinKhachHang
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ThongTinKhachHang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Makhachhang" />
+            <div class="form-group">
+                <label asp-for="Tenkhachhang" class="control-label"></label>
+                <input asp-for="Tenkhachhang" class="form-control" />
+                <span asp-validation-for="Tenkhachhang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diachi" class="control-label"></label>
+                <input asp-for="Diachi" class="form-control" />
+                <span asp-validation-for="Diachi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sodienthoai" class="control-label"></label>
+                <input asp-for="Sodienthoai" class="form-control" />
+                <span asp-validation-for="Sodienthoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-danger"asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

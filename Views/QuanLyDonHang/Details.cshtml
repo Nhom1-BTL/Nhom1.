@@ -1,0 +1,42 @@
+@model NHOM1.Models.QuanLyDonHang
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>QuanLyDonHang</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ngaydatdon)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ngaydatdon)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Masanpham)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Masanpham)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ThongTinSanPham)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ThongTinSanPham)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ThongTinKhachHang)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ThongTinKhachHang.Makhachhang)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Madonhang">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
