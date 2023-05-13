@@ -1,0 +1,54 @@
+@model IEnumerable<NHOM1.Models.QuanLyNV>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create</a>
+</p>
+<table class="table table-bordered">
+    <thead class="table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GioiTinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diachi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sodienthoai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sodienthoai)
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-route-id="@item.MaNV">Edit</a> |
+                <a class="btn btn-info" asp-route-id="@item.MaNV">Details</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.MaNV">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
