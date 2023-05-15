@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using NHOM1.Models;
-
+// hữu
 namespace NHOM1.Controllers;
 
 public class HomeController : Controller
