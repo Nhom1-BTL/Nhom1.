@@ -54,7 +54,7 @@ namespace NHOM1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaNV,TenNV,GioiTinh,DiaChi,SoDienThoai")] QuanLyNV quanLyNV)
+        public async Task<IActionResult> Create([Bind("MaNV,TenNV,GioiTinh,Diachi,Sodienthoai")] QuanLyNV quanLyNV)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace NHOM1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("MaNV,TenNV,GioiTinh,DiaChi,SoDienThoai")] QuanLyNV quanLyNV)
+        public async Task<IActionResult> Edit(string id, [Bind("MaNV,TenNV,GioiTinh,Diachi,Sodienthoai")] QuanLyNV quanLyNV)
         {
             if (id != quanLyNV.MaNV)
             {

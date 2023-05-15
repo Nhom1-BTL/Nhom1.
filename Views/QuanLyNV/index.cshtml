@@ -13,6 +13,10 @@
     <thead class="table-dark">
     <thead>
         <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.MaNV)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.TenNV)
             </th>
@@ -32,6 +36,9 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.MaNV )
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.TenNV)
             </td>
             <td>
@@ -44,8 +51,8 @@
                 @Html.DisplayFor(modelItem => item.Sodienthoai)
             </td>
             <td>
-                <a class="btn btn-primary" asp-route-id="@item.MaNV">Edit</a> |
-                <a class="btn btn-info" asp-route-id="@item.MaNV">Details</a> |
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.MaNV">Edit</a> |
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.MaNV">Details</a> |
                 <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.MaNV">Delete</a>
             </td>
         </tr>
