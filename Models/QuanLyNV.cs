@@ -11,7 +11,7 @@ public class QuanLyNV
     public string? TenNV { get; set; }
     public string? GioiTinh { get; set;}
   
-    public string? Diachi { get; set; }
-     public int Sodienthoai { get; set; }
+    public string? DiaChi { get; set; }
+     public int SoDienThoai { get; set; }
      
 }
