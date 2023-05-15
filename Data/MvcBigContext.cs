@@ -18,6 +18,7 @@ namespace NHOM1.Data
         public DbSet<ThongTinKhachHang> ThongTinKhachHang { get; set; }
 
         public DbSet<QuanLyDonHang> QuanLyDonHang { get; set; }
+        public DbSet<ThongTinSanPham> ThongTinSanPham { get; set; }
 
     }
 }
