@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NHOM1
 build_property.RootNamespace = NHOM1
-build_property.ProjectDir = C:\Users\Admin\Nhom1\NHOM1\
+build_property.ProjectDir = c:\Users\Admin\Nhom1\NHOM1\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Nhom1\NHOM1
+build_property.MSBuildProjectDirectory = c:\Users\Admin\Nhom1\NHOM1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/Home/Index.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/Home/Privacy.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Create.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5Tmd1b25IYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Delete.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5Tmd1b25IYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Details.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5Tmd1b25IYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Edit.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5Tmd1b25IYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Index.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNguonHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5Tmd1b25IYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Create.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5TlZcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Delete.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5TlZcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Details.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5TlZcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Edit.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5TlZcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Index.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5TlZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Upload.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/QuanLyNV/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5TlZcVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/Shared/Error.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/_ViewImports.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/_ViewStart.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Nhom1/NHOM1/Views/Shared/_Layout.cshtml]
+[c:/Users/Admin/Nhom1/NHOM1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zjh7sdqbi1
