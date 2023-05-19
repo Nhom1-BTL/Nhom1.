@@ -248,7 +248,6 @@ C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Da
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -272,8 +271,6 @@ C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dl
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
@@ -301,3 +298,9 @@ C:\Users\Admin\Nhom1\NHOM1\obj\Debug\net7.0\refint\NHOM1.dll
 C:\Users\Admin\Nhom1\NHOM1\obj\Debug\net7.0\NHOM1.pdb
 C:\Users\Admin\Nhom1\NHOM1\obj\Debug\net7.0\NHOM1.genruntimeconfig.cache
 C:\Users\Admin\Nhom1\NHOM1\obj\Debug\net7.0\ref\NHOM1.dll
+C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\EPPlus.dll
+C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Nhom1\NHOM1\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll

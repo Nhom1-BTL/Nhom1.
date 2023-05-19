@@ -12,6 +12,6 @@ public class QuanLyNV
     public string? GioiTinh { get; set;}
   
     public string? DiaChi { get; set; }
-     public int SoDienThoai { get; set; }
+     public string? SoDienThoai { get; set; }
      
 }

@@ -7,11 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NHOM1.Models;
 using NHOM1.Data;
-
+using HUU38.Models.Process;
 namespace NHOM1.Controllers
 {
     public class QuanLyNVController : Controller
     {
+        private ExcelProcess _excelProcess = new ExcelProcess();
         private readonly MvcBigContext _context;
 
         public QuanLyNVController(MvcBigContext context)
@@ -148,6 +149,50 @@ namespace NHOM1.Controllers
         private bool QuanLyNVExists(string id)
         {
             return _context.QuanLyNV.Any(e => e.MaNV == id);
+        }
+        public async Task<IActionResult> Upload()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Upload(IFormFile file)
+        {
+            if (file != null)
+            {
+                string fileExtension = Path.GetExtension(file.FileName);
+                if (fileExtension != ".xls" && fileExtension != ".xlsx")
+                {
+                    ModelState.AddModelError("", "Please choose excel file to upload!");
+                }
+                else
+                {
+                    var FileName = DateTime.Now.ToShortTimeString() + fileExtension;
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", FileName);
+                    var fileLocation = new FileInfo(filePath).ToString();
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        //save file to sever
+                        await file.CopyToAsync(stream);
+                        var dt = _excelProcess.ExcelToDataTable(fileLocation);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            var std = new QuanLyNV();
+
+                            std.MaNV = dt.Rows[i][0].ToString();
+                            std.TenNV = dt.Rows[i][1].ToString();
+                            std.GioiTinh = dt.Rows[i][2].ToString();
+                            std.DiaChi = dt.Rows[i][3].ToString();
+                            std.SoDienThoai = dt.Rows[i][4].ToString();
+
+                            _context.QuanLyNV.Add(std);
+                        }
+                        await _context.SaveChangesAsync();
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+            }
+            return View();
         }
     }
 }
