@@ -33,7 +33,6 @@ namespace NHOM1.Controllers
             {
                 return NotFound();
             }
-
             var quanLyNV = await _context.QuanLyNV
                 .FirstOrDefaultAsync(m => m.MaNV == id);
             if (quanLyNV == null)
