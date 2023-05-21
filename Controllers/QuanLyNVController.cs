@@ -47,14 +47,14 @@ namespace NHOM1.Controllers
         // GET: QuanLyNV/Create
         public IActionResult Create()
         {
-            var newquanao = "NV001";
-            var countquanao = _context.QuanLyNV.Count();
-            if (countquanao > 0)
+            var newqnhanvien = "NV001";
+            var countqnhanvien = _context.QuanLyNV.Count();
+            if (countqnhanvien > 0)
             {
                 var IDSp = _context.QuanLyNV.OrderByDescending(m => m.MaNV).First().MaNV;
-                newquanao = strPro.AutoGenerateCode(IDSp);
+                newqnhanvien = strPro.AutoGenerateCode(IDSp);
             }
-            ViewBag.newID = newquanao;
+            ViewBag.newID = newqnhanvien;
             return View();
         }
 
