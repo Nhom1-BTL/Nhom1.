@@ -16,6 +16,6 @@ public class QuanLyNguonHang
 
     [Required(ErrorMessage = "Số lượng không được để trống")]
     [Display( Name = "Số lượng")]
-     public int  SoLuong { get; set; }
+     public int?  SoLuong { get; set; }
      
 }
