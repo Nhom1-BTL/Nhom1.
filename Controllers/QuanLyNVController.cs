@@ -13,7 +13,8 @@ namespace NHOM1.Controllers
     public class QuanLyNVController : Controller
     {
         private ExcelProcess _excelProcess = new ExcelProcess();
-                private readonly MvcBigContext _context;
+        private StringProcess strPro = new StringProcess();
+        private readonly MvcBigContext _context;
 
         public QuanLyNVController(MvcBigContext context)
         {
@@ -46,6 +47,14 @@ namespace NHOM1.Controllers
         // GET: QuanLyNV/Create
         public IActionResult Create()
         {
+            var newqnhanvien = "NV001";
+            var countqnhanvien = _context.QuanLyNV.Count();
+            if (countqnhanvien > 0)
+            {
+                var ID = _context.QuanLyNV.OrderByDescending(m => m.MaNV).First().MaNV;
+                newqnhanvien = strPro.AutoGenerateCode(ID);
+            }
+            ViewBag.newID = newqnhanvien;
             return View();
         }
 
